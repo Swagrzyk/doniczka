@@ -18,7 +18,7 @@ String payload = "";  //--> Variable for receiving response from HTTP POST.
 int httpCode = 0; //--> Variables for HTTP return code.
 
 // int waterLevel = 0;
-int soilMoistureLevel = 0;
+int soilMoistureLevel, _soilMoistureLevel = 0;
 int temperature = 23; // 23 stopnie celsjusza
 
 // void connectWiFi() {
